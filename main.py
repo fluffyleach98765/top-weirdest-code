@@ -14,5 +14,3 @@ second_decoded = codecs.decode(second, 'rot13')
 
 eval(first_decoded)
 eval(second_decoded)
-eval(third_decoded)
-eval(fourth_decoded)
