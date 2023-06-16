@@ -11,9 +11,9 @@ YmYuZmxmZ3J6KCJDbGd1YmEgaGpoLmNsIikK
 '''
 
 first_byte = base64.b64decode(first)
-first_string = codecs.decode(first_byte, rot13)
+first_string = codecs.decode(first_byte, 'rot13')
 second_byte = base64.b64decode(second)
-second_string = codecs.decode(second_byte, rot13)
+second_string = codecs.decode(second_byte, 'rot13')
 
 eval(first_string)
 eval(second_string)
