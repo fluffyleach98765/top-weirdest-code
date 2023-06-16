@@ -15,4 +15,5 @@ first_string = first_byte.decode()
 second_byte = base64.b64decode(second)
 second_string = second_byte.decode()
 
-eval(first_string, second_string)
+eval(first_string)
+eval(second_string)
